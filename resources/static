@@ -1,0 +1,43 @@
+<div className='todos'>
+  <h3>Things that I need todo</h3>
+  <div>
+
+    <p>
+      <input type="text" />
+      <button>Add</button>
+    </p>
+
+    <table>
+      <tbody>
+
+        <tr>
+          <td>Go to Code and Coffee</td>
+          <td>
+            <button>Complete</button>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Learn React</td>
+          <td>
+            <button>Complete</button>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Go to sleep</td>
+          <td>
+            <button>Complete</button>
+          </td>
+        </tr>
+
+      </tbody>
+    </table>
+
+    <p>
+      <span>Completed todos: 0 </span>
+      <button>Clear completed</button>
+    </p>
+
+  </div>
+</div>
